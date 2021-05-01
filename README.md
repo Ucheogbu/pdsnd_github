@@ -30,4 +30,4 @@ I would like to thank the entire team at Udacity for teaching me the concepts re
 
 For the project, I referred to the following websites:
 
-https://docs.python.org/3/index.html https://pandas.pydata.org/pandas-docs/stable/reference/frame.html 
+https://docs.python.org/3/index.html 
