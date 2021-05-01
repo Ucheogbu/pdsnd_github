@@ -24,7 +24,7 @@ def get_filters():
             "\nWhich city would you like to filter by? [New York City, Chicago or Washington]?\n")
         if city not in cities:
             print(
-                "Incorrect option selected, please select one of the options provided. Try again.")
+                "Invalid option selected, please select from the options provided. Try again.")
             continue
         else:
             break
@@ -36,7 +36,7 @@ def get_filters():
             "\nWhich month do you want to filter by? Options: [January, February, March, April, May, June]. type 'all' if you do not want to apply any filter?\n")
         if month not in months:
             print(
-                "Incorrect option selected, please select one of the options provided. Try again.")
+                "Invalid option selected, please select from the options provided. Try again.")
             continue
         else:
             break
@@ -49,7 +49,7 @@ def get_filters():
             "\nWhich day of the week do you want to analyze? Options: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday ] type 'all' if you do not have any preference.\n")
         if day not in days:
             print(
-                "Incorrect option selected, please select one of the options provided. Try again.")
+                "Invalid option selected, please select from the options provided. Try again.")
             continue
         else:
             break
